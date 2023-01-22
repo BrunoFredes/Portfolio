@@ -69,6 +69,11 @@ html{
     align-items: center;
     justify-content: center;
 }
+#inicio .contenido .presentacion img{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+}
 #inicio .contenido .presentacion .bienvenida {
     font-size: 16px;
     margin-bottom: 20px;
@@ -135,7 +140,7 @@ html{
     margin: 0 40px;
 }
 #sobremi .sobremi .titulo-seccion{
-    font-size: 22px;
+    font-size: 24px;
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
@@ -148,7 +153,7 @@ html{
 }
 
 #sobremi .sobremi h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -156,9 +161,9 @@ html{
 }
 
 #sobremi .sobremi p{
-    font-size: 14px;
+    font-size: 20px;
     line-height: 25px;
-    color: #565656;
+    color: #474747;
     margin-bottom: 12px;
 }
 #sobremi .sobremi a{
@@ -217,10 +222,28 @@ html{
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #d3d3d3;
+    background-color: #b6b6b6;
     padding: 20px;
     margin-bottom: 25px;
 }
+#servicios .fila .servicio .icono img{
+    height: 23px;
+    width: 23px;
+}
+#servicios .fila .servicio .icono-github{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #b6b6b6;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+#servicios .fila .servicio .icono-github img {
+    height: 27px;
+    width: 30px;
+}
+
 #servicios .fila .servicio hr{
     width: 30%;
     margin: auto;
