@@ -115,6 +115,11 @@ html{
     color: #fff;
     display: none;
 }
+#inicio .contenido .presentacion .descripcion{
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
 
 /* SECCION SOBRE MI*/
 
@@ -187,14 +192,14 @@ html{
 #servicios{
     padding: 100px 15px;
     text-align: center;
-    background-color: #f3f3f3;
+    background-color: #c0c0c0;
 }
 #servicios .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
     color: #111135;
     text-decoration: underline;
-    text-decoration-color: #d3d3d3;
+    text-decoration-color: #464646;
     text-decoration-thickness: 5px;
 }
 #servicios .fila{
@@ -238,7 +243,7 @@ html{
     margin-bottom: 10px;
 }
 #servicios .fila .servicio p{
-    font-size: 14px;
+    font-size: 17px;
     line-height: 22px;
 }
 /*SECCION H A B I L I D A D E S*/
@@ -416,7 +421,6 @@ footer a{
     margin: 5px;
     font-size: 26px;
 }
-
 /* SECCION R E S P O N S I V E */
 
 @media screen and (max-width:800px){
